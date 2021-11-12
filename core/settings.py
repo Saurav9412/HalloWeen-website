@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v=^nucr1%xe1ot9_bl5y2%endo=he5jj9px&d#$1*xk%%*f)u@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://halloween-responsive-website.herokuapp.com',
+ALLOWED_HOSTS = ['halloween-responsive-website.herokuapp.com',
 'localhost',
 '127.0.0.1']
 
