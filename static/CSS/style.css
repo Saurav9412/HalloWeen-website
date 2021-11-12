@@ -671,21 +671,25 @@ button{
 
 /* Active link */
 .active-link{
-	background: var(--body-color);
-	padding: 1rem 2rem;
-	border-radius: 2rem;
+	/*background: var(--body-color);*/
+	/*padding: 1rem 2rem;*/
+	/*border-radius: 2rem;*/
 	color: var(--text-color);
+	font-size: var(--h2-font-size);
 	transition: .3s;
 }
-/* .active-link::before{
+/*.active-link{
+	position: relative;
+}
+.active-link::before{
 	content: '';
 	position: absolute;
-	left: 45%;
+	left: 40%;
 	bottom: -.75rem;
-	height: 5px;
-	width: 5px;
+	height: 2px;
+	width: 2rem;
 	background-color: var(--title-color);
-	border-radius: 50%;
+	border-radius: 1rem;
 } */
 
 /*================== FOOTER ==================*/
